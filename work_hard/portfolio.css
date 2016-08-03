@@ -1,0 +1,49 @@
+header{
+background-color:red;
+padding-top:50px;
+padding-bottom:50px;
+height:500px;
+width:100%;
+position:fixed-top;
+top:0;
+ text-align: center;
+}
+
+img  {
+        height: 200px;
+        width:200px;
+        text-align:center;
+      }
+/*decoration of nav bar*/
+.main-nav{
+
+text-align:center;
+background:blue;
+
+}
+/*decoration of links in the nav*/
+.main-nav a {
+        font-size: .9em;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform:uppercase;
+        color: #444135;
+        display: inline-block;
+        margin: 24px 12px;
+      }
+      .main-nav a:hover {
+        color: #fff;
+        border-top: 4px solid black;
+        padding-top: 10px;
+      }
+
+
+
+footer{
+height:100px;
+width:100%;
+background-color:black;
+position:fixed;
+bottom:0;
+}
+ 

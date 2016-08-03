@@ -1,0 +1,134 @@
+<div id="image" style="width:100%;height:800px;"></div> 
+
+
+
+
+
+<!DOCTYPE html>
+<html class=''>
+  <head>
+    <title>SOMETHING</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset='UTF-8'>
+    <script src='http://s.codepen.io/assets/libs/prefixfree.min.js'></script>
+    <link rel='stylesheet prefetch' href=''>
+    <style class="cp-pen-styles">
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding-top: 250px;
+        font: 1em/1.5 sans-serif;
+        color: #444135;
+      }
+      p {
+        margin-bottom: 32px;
+      }
+      header {
+        height: 400px;
+        padding-top: 50px;
+        background:;
+        color: #f7f8ee;
+
+      }
+      header,
+      .main-nav {
+        text-align: center;
+      }
+      .main-nav a {
+        font-size: .9em;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #444135;
+        display: inline-block;
+        margin: 24px 12px;
+      }
+      .main-nav a:hover {
+        color: #fff;
+        border-top: 4px solid black;
+        padding-top: 10px;
+      }
+      /*.main-nav a:first-child {
+        border-top: 2px solid #f07057;
+        padding-top: 10px; 
+      }*/
+      .selected {
+        border-top: 2px solid black;
+        padding-top: 10px;
+        color: #fff;
+      }
+      .main h2 {
+        column-span: all;
+      }
+      .main-nav,
+      .main {
+        position: relative; 
+      }
+      .main-nav {
+        background: #3498db;
+        height: 80px;
+        z-index: 150;
+        margin-bottom: -80px;
+        box-shadow: 0 2px 3px rgba(0,0,0,.4);
+      }
+      header,
+      .main-nav-scrolled {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      .main {
+        background: #f2f2e8;
+        padding: 110px 50px 50px;
+        /*column-count: 2;
+        column-gap: 40px;*/
+      }
+      img  {
+        height: 200px;
+        width:200px;
+        text-align:center
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- <h1>This is a Sticky Nav Demo!</h1>
+      <p>Creating one of these isn't so bad. Let's learn how with this sweet little demo!</p> -->
+      <img src="img/downres.png">
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <nav class="main-nav">
+      <a href="index.html" class="selected">HOME</a>
+      <a href="#" class="">ABOUT US</a>
+      <a href="#">PROJECT</a>
+      <a href="#">CONTACT US</a>
+    </nav>
+  <div class="main">
+
+</div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script>
+      var mn = $(".main-nav");
+
+      $(window).scroll(function () {
+        if( $(this).scrollTop() > 250 ) {
+          mn.addClass("main-nav-scrolled");
+        } else {
+          mn.removeClass("main-nav-scrolled");
+        }
+      });
+    //@ sourceURL=pen.js
+    </script>
+    <script src='http://codepen.io/assets/editor/live/css_live_reload_init.js'></script>
+  </body>
+</html>
+
+
