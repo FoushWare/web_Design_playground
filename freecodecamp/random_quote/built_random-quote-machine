@@ -1,0 +1,12 @@
+needed
+for API
+1-https://quotesondesign.com/api-v4-0/
+2-http://quotes.stormconsultancy.co.uk/api
+for background color 
+
+https://www.codecademy.com/en/forum_questions/525e864c80ff338580001a5https://www.codecademy.com/en/forum_questions/525e864c80ff338580001a533
+
+
+suggestion for the quote (quote-text)
+   1-to use <blockquote>  instead of span
+   2-to use <q> for quote sign
