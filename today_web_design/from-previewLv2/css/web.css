@@ -1,3 +1,11 @@
+/*
+ *Template Name     : Classic
+ *Template Version  :v 1
+ *Template Url      :http://i.share.pho.to/4ebd645f_o.png
+                    : http://ahmedfouad.esy.es/from-previewLv2/inedx.html
+ *Designer          :Ahmed Fouad 
+ *Subject           :practice html & Css & jQuery  LV2
+ */
 
 /*start Grobal style*/
 *{
@@ -379,17 +387,13 @@ margin-bottom:101px;
          float:left;
     }
     .footer .posts .post  p{
-         float:left;
-         width:60%;
-         margin:4%;        
+         margin:4% 0 1% 36%;        
          color:#D3D3D3;
 
     }
     .footer .posts .post  span{
         display:block;
-         float:left;
-         margin-left:5%;
-         margin-top:0;
+         margin-left:93px;
         color: #9A9A9A;
     }
     .footer  .cat ul{
