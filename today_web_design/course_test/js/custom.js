@@ -14,6 +14,14 @@ $(function(){
          $(this).toggleClass("wobble");
     });
 
+    /* start trigger the nicescroll plugin*/
+    $('html').niceScroll({
+        cursorcolor:"#6FDA44",
+        cursorwidth:"8px",
+        cursorborder:"1px solid #6FDA44",
+    });
+    /*End trigger the nicescroll plugin*/
+
 
 
 
