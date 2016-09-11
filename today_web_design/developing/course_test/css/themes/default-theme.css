@@ -1,0 +1,93 @@
+/********** box-option******* */
+.option-box .color-option{
+    background:#f2dede;
+    border: 3px solid #FFF;
+}
+
+.option-box .color-option ul li{
+    background:yellow;
+}
+
+.option-box  i{
+    color:#F00;
+    background:#edff87;
+}
+/********** box-option******* */
+
+
+/*******start color *******/
+
+.navbar .navbar-header .navbar-brand span,
+.glyphicon-chevron-right:hover,
+.glyphicon-chevron-left:hover,
+.services .intro p  span,
+
+.testmonial .carousel-inner .item span,
+footer .recent-posts h3
+{
+color:#6FDA44;
+}
+
+/*******End color *******/
+
+/*******start background: *******/
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+color:#FFF;
+background:#6fda44;
+}
+
+/*******End background: *******/
+
+.navbar-default .navbar-nav > li > a{
+     color: #666;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+     color:#FFF;
+     background:#C6F8C5;
+}
+.navbar-default .navbar-toggle{
+background:#6FDA44;
+}
+
+.services .intro h2  span{
+   color:blue;
+
+}
+
+.our-team .overlay,
+.statistic .overlay,
+.statistic .overlay,
+.price .overlay
+{
+    background:rgba(111, 218, 68, .8);
+}
+
+.subscribe{
+    background:#92bf86;
+}
+
+
+
+.subscribe h2 span,
+.statistic .overlay .container h1 span,
+.our-skills h2 span,
+.contact .overlay .container h4 span,
+.our-team .overlay .container > h2 span,
+.price .overlay .container > h2 span,
+.testmonial h2 span
+{
+    color:#c91313;
+}
+
+.subscribe p{
+    color: #919191;
+}
+
+.contact .overlay .glyphicon-send{
+     color:#0088cc; 
+}

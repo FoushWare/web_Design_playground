@@ -1,0 +1,6 @@
+<span></span>
+                   is an inline element if you put height and 
+                   height without putting display:block;
+                   it won't work
+    if you use line-height:25px; and  height:25px; this will
+    center it's contant 
