@@ -1,0 +1,137 @@
+
+
+<style>
+  body{
+    background:#808080;
+    fondt-size:16px;
+     
+  }
+  #contact{
+    background:#161d27;
+    color:#DCDCDC;
+    width:100%;
+  }
+</style>
+<!! the scrolable Area -->
+<body data-spy="scroll" data-target=".navbar"  data-offset="115">
+<nav class="navbar navbar-default navbar-fixed-top" style="background:pink;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Ahmed fouad</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mynavbar">
+    <ul role="menu" class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+  <div class="container" style="margin-bottom:50px;">
+    <div class="jumbotron" style="background:#DCDCDC;">
+      <div class="row" id="about" style="background:#FE6F5E;">
+        
+        <div class="col-md-8 col-xs-8">
+          <p class style="font-size:15px;">The name is Ahmed and I'm an webdeveloper, with extensive practical experience in brand strategy, creative direction and project management; devoted to Functional Programming and Information Architecture. Also a huge fan of semantics and futuristic interfaces.</p>
+       </div>
+        <div class="col-md-4 col-xs-4">
+          
+        <img src="http://i63.tinypic.com/w1qzbo.jpg" class="img-responsive img-rounded img-circle">
+          
+          </div>         
+      </div>
+      <hr style="border-color:#3AA1C1;">
+      <div> <h3 class="text-center" style="margin-bottom:150px;">Web Developer - Graphic Artist - User Experience Designer</h3></div>
+      
+      <div class="row"></div>
+       
+      
+      <div class="row" style="background:#DCDCDC;" id="portfolio">
+        <h2 class="text-center">PORTFOLIO</h2>
+        <div class="col-md-6 col-xs-6"><img src="https://s32.postimg.org/h1qyhcjlx/firstproject.png" class="img-responsive img-rounded"></div>
+        <div class="col-md-6 col-xs-6"><img src="https://s31.postimg.org/5z3wofy9n/moahmedali2222.png" class="img-responsive img-rounded">
+        </div>
+      
+        
+        
+      </div>    
+      <div class="row" style="background:#DCDCDC;" id="portfolio" style="margin-bottom:150px;">
+        <h3></h3>
+        <div class="col-md-6 col-xs-6"><img src="https://snap-photos.s3.amazonaws.com/img-thumbs/960w/N0ZRKV9CI6.jpg" class="img-responsive img-rounded"></div>
+        <div class="col-md-6 col-xs-6"><img src="https://snap-photos.s3.amazonaws.com/img-thumbs/960w/4JAR86K6MZ.jpg" class="img-responsive img-rounded"></div>    
+               
+      </div>    
+      <div class="row" id="contact" style=" margin-top:100px;">
+        <h3 class="text-center">Contacts</h3>
+        <div class="col-md-8 col-xs-8">
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>Name:</td>
+        <td>ahmed fouad</td>
+        
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td>lionfoud41@yahoo.com</td>
+        
+      </tr>
+      <tr>
+        <td>Phone:</td>
+        <td>+2001012201148</td>
+        
+      </tr>
+     
+      
+    </tbody>
+    
+          </table>
+        
+        
+        </div>
+        <div class="col-md-4 col-xs-4">
+          <ul class="nav">
+            <li><a target="_blank" href="https://www.facebook.com/ahmed.fouad.779205"><i class="fa fa-facebook btn btn-default btn-primary" style="border-radius:50px;"></i></a></li>
+            <li><a target="_blank" href="https://github.com/"><i class="fa fa-github btn btn-default btn-primary" style="border-radius:50px;"></i></a></li>
+            <li> <a target="_blank" href="https://twitter.com/FouadLionmoon60?lang=en"><i class="fa fa-twitter btn btn-default btn-primary"  style="border-radius:50px;"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/fouad888899/?hl=en"><i class="fa fa-instagram btn btn-default btn-primary" style="border-radius:50px;"></i></a></li>
+          </ul>       
+                </div> 
+        
+                      </div> 
+                    
+                 
+                 
+                    
+        
+        
+        
+        
+                                                            
+      
+     
+      
+      
+    </div>
+    
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</body>  
