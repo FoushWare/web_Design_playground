@@ -1,0 +1,176 @@
+ /* start my-style */
+ body{
+     background:url('../images/main-bg.jpg');
+ }
+
+
+
+
+
+ .header-top{
+background:#7A0C0F;
+ }
+ .header-top ul{color:#FFF;}
+ .header-top ul li{}
+
+ .header-bottom{}
+ .header-bottom .location {
+     background:#66A8D2;
+     margin-bottom:100px;
+     height:85px;
+ }
+ .header-bottom .location ul{}
+ .header-bottom .location ul li{}
+ .my-carsoul{}
+ .our-nav{
+
+ }
+
+ .holders{}
+ .holders .left-holder1{
+     min-height:224px;
+      color:#FFF;
+      background:#7A0C0F;
+      border-radius:8px;
+      margin-bottom:14px
+ }
+ .holders .left-holder1 .lunch-left,
+ .holders .left-holder2 .lunch-left
+ {
+       padding:10px;
+       font-size:18px;
+       font-weight:600;
+ }
+ .holders .left-holder1 .lunch-left .dollar,
+ .holders .left-holder2 .lunch-left .dollar
+ {
+     display:inline-block;
+     font-size:33px;
+     color:#FFF21C;
+     padding-left:20px;
+ }
+ .holders .left-holder1 .lunch-left .price,
+ .holders .left-holder2 .lunch-left .price
+ {
+     display:inline-block;
+     font-size:66px;
+     color:#FFF21C;
+
+ }
+ .holders .left-holder1 ul{
+      margin-top:8px;
+     color:#FFF21C;
+     font-weight:bold;
+ }
+ .holders .left-holder1 ul li{}
+
+ .holders .left-holder1 header h2,
+ .holders .left-holder2 header h2,
+.holders .right-holder header h1
+ {
+       background:#005C8A;
+       color:#FFF21C;
+       border-radius:6px 6px 0 0;
+       padding:10px;
+       margin:0;
+
+
+ }
+ .holders .left-holder2{
+     min-height:219px;
+      color:#FFF;
+      background:#7A0C0F;
+      border-radius:8px;
+      margin-bottom:14px
+ }
+ .holders .right-holder{
+      border-radius:5px;
+      min-height:460px;
+
+}
+.holders .right-holder> p{
+     padding:15px;
+     color:#000;
+     font:normal normal 500 19px/1.4 Arial;
+
+}
+     
+.holders .right-holder p a{
+  color:#AE1217;
+}
+.holders .right-holder form label{
+    line-height:3;
+}
+.holders .right-holder select{
+margin-left:35px;
+background:#FFF;
+}
+.holders .right-holder form button{
+     margin-top:20px;
+     background:#AE1217;
+     color:#FFF;
+}
+.holders .right-holder form input,
+.holders .right-holder form select{
+     border-radius:9px;
+     border: 3px solid #AE1217;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    
+}
+.holders .right-holder form p{
+     color:#666;
+     font-size:13px;
+     margin-top:5px;
+}
+.footer{
+     min-height:200px;
+     background:#005C8A;
+}
+ /* End my-style */
+
+
+/* start media-queries */
+@media (min-width:768px){
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand{
+        min-height:133px;
+        width:409px;
+        padding:0;
+        margin-left:166px;
+    }
+    .navbar{
+         margin-bottom:0;
+    }
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header{
+         height:50px !important;
+    }
+}
+
+@media (max-width:767px){
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand{
+        min-height:90px;
+        width:278px;
+        padding:0;
+        margin-left:0px;
+    }
+    .navbar{
+         margin-bottom:0;
+    }
+}
+
+/*End media-queries */
+
+
+
+
+
+
+
+
+
+
+
