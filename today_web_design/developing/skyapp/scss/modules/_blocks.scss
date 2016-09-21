@@ -31,6 +31,7 @@
      @include add-border(1px,#cccccc,'all');
 }
 .block-primary-head{
+    margin-bottom:20px;
     h3{
         padding:15px 5px 15px 10px;
         @include add-background($primary-color);

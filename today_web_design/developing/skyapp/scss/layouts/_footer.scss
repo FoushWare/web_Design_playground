@@ -4,7 +4,7 @@ footer{
     @include add-border(4px,$secondary-color,'top');
     min-height:200px;
     padding:30px 0;
-    z-index:500;
+    z-index:10000000;
     li{
         line-height:1.8em;
     }
