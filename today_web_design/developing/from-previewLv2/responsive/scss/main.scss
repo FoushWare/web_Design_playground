@@ -1,0 +1,21 @@
+/*
+    Templete: from-preview2Responsive
+    Author  : Ahmed
+    version : 0.2
+ */
+/*Base - Base style,variables, mixins etc mean common things*/
+@import 'base/_variables.scss';
+@import 'base/_base.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+
+/*Modules - individual site componets*/
+@import "modules/_blocks.scss";
+@import "modules/_buttons.scss";
+@import "modules/_components.scss";
+@import "modules/_typography.scss";
+@import "modules/_sections.scss";
+/*layouts -Page Layout*/
+@import 'layouts/_footer.scss';
+@import 'layouts/_main-header.scss';
+@import 'layouts/_nav.scss';

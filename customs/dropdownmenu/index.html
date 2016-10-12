@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <!--IE compatibility Meta-->
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <!--First Mobile Meta-->
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>droDown-menu</title>
+          <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+          <link rel="stylesheet" href="./css/media-query-snippet.css"/>
+          <link rel="stylesheet" href="./css/style.css"/>
+          <!--[if lt IE 9]>
+             <script src="./js/html5shiv.js"></script>
+             <script src="./js/respond.js"></script>
+          <![endif]-->
+        <style>
+         .dropdown{
+             width:70px;
+              margin:50px auto;
+    
+               }
+         button{
+             display:block;
+         }
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+        </style>
+
+      </head>
+      <body>
+
+          <div class="dropdown ">
+              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Click Me
+                  <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                  <li class="dropdown-header"><a href="#">choose language ue want to learn</a></li>
+                  <li><a  role="menuitem" tabindex="-1" href="#">Html</a></li>
+                  <li class="dropdown" id="ahmed">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">DroDown<span class="caret"></span></a>
+                      <ul class="dropdown-submenu">
+                        <li data-parent="ahmed"><a href="#">VPN</a></li>
+                        <li data-parent="ahmed"><a href="#">FTP</a></li>
+                        <li data-parent="ahmed"><a href="#">Hosting</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li data-parent="ahmed"><a href="#">Separated link</a></li>
+                        <li data-parent="ahmed" role="separator" class="divider"></li>
+                        <li data-parent="ahmed"><a href="#">One more separated link</a></li>
+                      </ul>
+
+                  </li>
+                  <li><a href="#">Jquery</a></li>
+                  <li><a href="#">javascript</a></li>
+                  <li><a href="#">Sass</a></li>
+              </ul>
+          </div>
+         <script src="./js/jquery-1.11.3.min.js"></script>
+         <script src="./js/bootstrap.min.js"></script>
+         <script src="./js/jquery.nicescroll.min.js"></script>
+         <script src="./js/custom.js"></script>
+
+      </body>
+      </html>

@@ -1,0 +1,26 @@
+/**
+ ***** TempleteName:        Hotel
+ ***** Auther      :        Ahmed fouad
+ ***** Version     :        0.0.1
+ **/
+
+/* Start base- baseStyle,mixins,variables*/
+ @import "./base/_base.scss";
+ @import "./base/_variables.scss";
+ @import "./base/_normalize.scss";
+ @import "./base/mixins.scss";
+/* End   base- baseStyle,mixins,variables*/
+
+ /*Start layouts-navbar-header-footer*/
+ @import "./layouts/_nav.scss";
+ @import "./layouts/_header.scss";
+ @import "./layouts/_footer.scss";
+ /*End layouts-navbar-header-footer*/
+
+ /*Start moduels-buttons,typography-forms,blocks,section*/
+ @import "./modules/_blocks.scss";
+ @import "./modules/_buttons.scss";
+ @import "./modules/_components.scss";
+ @import "./modules/_sections.scss";
+ @import "./modules/_typography.scss";
+ /*End moduels-buttons,typography-forms,blocks,section*/

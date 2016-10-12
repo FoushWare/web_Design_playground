@@ -1,0 +1,25 @@
+/**
+ ***** TempleteName:        Hotel
+ ***** Auther      :        Ahmed fouad
+ ***** Version     :        0.0.1
+ **/
+/* Start base- baseStyle,mixins,variables*/
+/*start all links in the page*/
+a {
+  color: #00F !important; }
+
+/*End all links in the page*/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+/* End   base- baseStyle,mixins,variables*/
+/*Start layouts-navbar-header-footer*/
+header {
+  padding-top: 20px; }
+
+/*End layouts-navbar-header-footer*/
+/*Start moduels-buttons,typography-forms,blocks,section*/
+/*End moduels-buttons,typography-forms,blocks,section*/
+
+/*# sourceMappingURL=main.css.map */
