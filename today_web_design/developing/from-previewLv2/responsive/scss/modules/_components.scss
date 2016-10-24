@@ -5,3 +5,7 @@
     margin:0;
     padding:80px;
 }
+//image cover prefix
+.cover{
+    @include backgroundSize(cover);
+}

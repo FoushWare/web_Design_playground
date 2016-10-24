@@ -20,12 +20,20 @@ a {
 
 /*Start add-border*/
 /*End add-border*/
+/*start backgrondSie*/
+/*End backgrondSie*/
 /*Modules - individual site componets*/
 .logo {
   background: #EEE;
   height: 200px;
   margin: 0;
   padding: 80px; }
+
+.cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 h2, h3 {
   margin-bottom: 30px; }
@@ -62,5 +70,24 @@ section {
 
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
   max-height: none; }
+.mix{
+  display:none;}
+  .projects img,
+  .our-team img{
+	  margin-bottom:20px;
+          margin-top:20px;} 
+.testmonials .item .overlay{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.8);
+}
+
+.testmonials .item .carousel-caption{
+bottom:137px;}
 
 /*# sourceMappingURL=main.css.map */

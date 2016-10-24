@@ -18,5 +18,8 @@
             }, 0);
         }
     });
+$('.cover').width($(window).width());
+//mixitup
+$('#Container').mixItUp();
 
 })(jQuery, undefined);

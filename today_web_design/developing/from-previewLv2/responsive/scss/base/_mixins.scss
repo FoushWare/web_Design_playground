@@ -26,11 +26,13 @@
         border-left:$size solid $color;
         
     }
-
-
-
-
-
-
 }
 /*End add-border*/
+/*start backgrondSie*/
+@mixin backgroundSize($bac){
+	-webkit-background-size:$bac;
+	-moz-background-size:$bac;
+	-o-background-size:$bac;
+ 	background-size:$bac;
+}
+/*End backgrondSie*/
