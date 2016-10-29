@@ -1,6 +1,6 @@
-(function($) {
+$(function() {
     "use strict";
-
+    //start sticky navabar
     var $navbar = $("#sticky-navbar"),
         y_pos = $navbar.offset().top,
         height = $navbar.height();
@@ -18,8 +18,20 @@
             }, 0);
         }
     });
+    //End sticky navbar
+    //Start Adjust the top carousel in the page
 $('.cover').width($(window).width());
-//mixitup
+    //End Adjust the top carousel in the page
+//start mixitup
 $('#Container').mixItUp();
+//End mixitup
+///*start smooth scroll*/
+    $('.links li a').click(function(){
+        $('html,body').animate({
+             scrollTop:$($(this).data("value")).offset().top-40
+        },1000);
 
-})(jQuery, undefined);
+    });
+    /*End  smooth scroll*/
+
+});

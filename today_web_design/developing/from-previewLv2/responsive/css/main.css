@@ -75,7 +75,27 @@ section {
   .projects img,
   .our-team img{
 	  margin-bottom:20px;
-          margin-top:20px;} 
+          margin-top:20px;}
+          .our-team .box{
+              position:relative;
+          }
+          .our-team .box .overlay{
+              position:absolute;
+              top:20px;
+              bottom:20px;
+              right:15px;
+              left:15px;
+             background:rgba(0,0,0,.5);
+             display:none;
+             text-align:center;
+             color:#FFF;
+             line-height:11;
+
+          }
+    .our-team .box:hover .overlay{
+        cursor:pointer;
+        display:block;
+     }
 .testmonials .item .overlay{
 	position:absolute;
 	top:0;
@@ -89,5 +109,13 @@ section {
 
 .testmonials .item .carousel-caption{
 bottom:137px;}
+footer{ 
+    background:#282828;
+    color:#9A9A9A;
+    padding:20px;
+}
+ footer h3,h4{
+     color:#FFF;
+ }
 
 /*# sourceMappingURL=main.css.map */
