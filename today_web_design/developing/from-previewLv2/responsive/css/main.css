@@ -109,6 +109,15 @@ section {
 
 .testmonials .item .carousel-caption{
 bottom:137px;}
+.carousel-caption {
+    bottom:31px!important;
+}
+.carousel-caption div{
+    color:#0BC396;
+}
+.carousel-caption p{
+    font-size:17px;
+}
 footer{ 
     background:#282828;
     color:#9A9A9A;
